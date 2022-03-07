@@ -22,8 +22,9 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{544605be-4353-4425-9878-afb489e2f282}</ProjectGuid>
-    <RootNamespace>XQL</RootNamespace>
+    <RootNamespace>ExQL</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>ExQL</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="XQL.cpp" />
+    <ClCompile Include="ExQL.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="xlfparser.h" />
